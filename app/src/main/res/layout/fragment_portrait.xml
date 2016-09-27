@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9a950"
+    android:orientation="vertical"
+    tools:context="com.cono.cs175.whatisfordinner.PortraitFragment">
+
+    <GridView
+        android:id="@+id/gridViewPortrait"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" />
+
+    <ImageButton
+        android:id="@+id/btnMainPortrait"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:scaleType="fitXY"
+        android:onClick="aboutAuthor_main"
+        android:src="@drawable/mainmenu" />
+
+    <Button
+        android:id="@+id/btnMeals"
+        android:layout_width="220px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="20dp"
+        android:background="#d9a950"
+        android:drawableTop="@drawable/meals"
+        android:text="Meals" />
+
+    <Button
+        android:id="@+id/btnGroceries"
+        android:layout_width="220px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="25dp"
+        android:layout_marginLeft="20dp"
+        android:background="#d9a950"
+        android:drawableTop="@drawable/groceries"
+        android:text="Groceries" />
+
+    <Button
+        android:id="@+id/btnRecipes"
+        android:layout_width="220px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="20dp"
+        android:background="#d9a950"
+        android:drawableTop="@drawable/recipes"
+        android:text="Recipes" />
+
+    <Button
+        android:id="@+id/btnNewDish"
+        android:layout_width="220px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="20dp"
+        android:background="#d9a950"
+        android:drawableTop="@drawable/newdish"
+        android:text="New Dish" />
+
+</FrameLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View android:layout_height="3dp"
+        android:background="#393fb9"
+        android:layout_width="match_parent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextIngredientName"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textCapWords"
+        android:hint="Enter Ingredient Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCalories"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:hint="Enter Calories" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextUnit"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textCapWords"
+        android:hint="Enter Units: Lbs/Oz/Gram ..." />
+
+</LinearLayout>

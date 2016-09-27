@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#259496"
+    tools:context="com.cono.cs175.whatisfordinner.PortraitFragment">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridViewLandscape"
+        android:layout_gravity="center_horizontal" />
+        <ImageButton
+            android:id="@+id/btnMainLandscape"
+            android:src="@drawable/main"
+            android:scaleType="fitXY"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="140px" />
+
+    <Button
+        android:layout_width="180px"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/meals"
+        android:background="#259496"
+        android:layout_marginLeft="45dp"
+        android:text="Meals"
+        android:id="@+id/btnMealsLandscape"
+        android:layout_gravity="left|center_vertical" />
+
+    <Button
+        android:layout_width="180px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="5dp"
+        android:drawableTop="@drawable/groceries"
+        android:background="#259496"
+        android:text="Groceries"
+        android:id="@+id/btnGroceriesLandscape"
+        android:layout_gravity="left|bottom" />
+
+    <Button
+        android:layout_width="180px"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="45dp"
+        android:drawableTop="@drawable/recipes"
+        android:background="#259496"
+        android:text="Recipes"
+        android:id="@+id/btnRecipesLandscape"
+        android:layout_gravity="right|center_vertical" />
+
+    <Button
+        android:layout_width="180px"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="5dp"
+        android:drawableTop="@drawable/newdish"
+        android:background="#259496"
+        android:text="New Dish"
+        android:id="@+id/btnNewDishLandscape"
+        android:layout_gravity="right|bottom" />
+
+</FrameLayout>

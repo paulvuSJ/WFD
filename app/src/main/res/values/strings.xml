@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Whatis for Dinner</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_add_recipe">Add Recipe</string>
+    <string name="title_activity_recipes">Recipes</string>
+    <string name="author_name">Author: Paul Vu</string>
+    <string name="saveButton">Save Recipe</string>
+    <string name="enter_directions_for_recipe">Enter Directions for Recipe</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="andNewIngredient">Add New Ingredient</string>
+    <string name="title_activity_add_new_ingredient">Add New Ingredient</string>
+    <string name="version_number">Version 1.0</string>
+    <string name="copy_right">© Copyright 2016</string>
+    <string name="author_link">http://www.paul.vu.com</string>
+    <string name="title_activity_meals">Meals</string>
+    <string name="title_activity_groceries">Groceries</string>
+</resources>
